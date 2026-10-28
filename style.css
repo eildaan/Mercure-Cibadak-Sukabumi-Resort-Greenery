@@ -39,3 +39,10 @@ body{font-size:17px;color:#183c2d}button,input,select{font:inherit}button,select
 .photo-tools button:last-child {
   display: none;
 }
+.photo-button.zoom-a11 {
+  overflow: hidden;
+}
+
+.photo-button.zoom-a11 .photo-main {
+  transform: scale(1.12);
+}
