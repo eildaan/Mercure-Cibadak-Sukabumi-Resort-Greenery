@@ -58,3 +58,20 @@ body{font-size:17px;color:#183c2d}button,input,select{font:inherit}button,select
     object-position: center 20%;
   }
 }
+@media (max-width: 700px) {
+  .card[href="#tumbuhan/A11"] .card-photo {
+    overflow: hidden;
+  }
+
+  .card[href="#tumbuhan/A11"] .card-photo img {
+    transform: scale(1.5);
+    transform-origin: center 20%;
+  }
+
+  #largePhoto[src*="A11"] {
+    width: 100%;
+    height: 34vw;
+    object-fit: cover;
+    object-position: center 20%;
+  }
+}
